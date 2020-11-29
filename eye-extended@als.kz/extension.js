@@ -14,7 +14,8 @@ const Gio = imports.gi.Gio;
 const Gdk = imports.gi.Gdk;
 const GLib = imports.gi.GLib;
 const Atspi = imports.gi.Atspi;
-const Tweener = imports.ui.tweener;
+// const Tweener = imports.ui.tweener;
+const Tweener = imports.tweener.tweener;
 
 let settings = null;
 let eye = null;
